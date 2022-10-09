@@ -1,0 +1,56 @@
+/* 
+Flexbox-one dimensional layout
+-row
+-column
+
+**properties to use depends on flex declaration.
+display flex;
+-justify 
+-flex-deriction
+-flex-wrap
+-align items
+*/
+
+.flex-container{
+    background-color: lightblue;
+    height: 100px;
+    /* padding: 20px; */
+display: flex;
+    /* justify-flex property */
+
+    /* justify-content: flex-start; */
+      /* /* justify-content: center;  */
+    
+
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* spaces are distrubuted in between equally */
+    /* justify-content: space-around; */
+    /* spaces are distrubted around each item */
+    /* justify-content: space-evenly; */
+    /* distrubuted item spaces evenly */
+
+    /* flex-direction: column; */
+    /* display horizontal */
+    /* flex-direction: row-reverse; */
+    /* reverse item horizontally */
+    /* flex-direction: column-reverse; */
+    /* revers item vertically */
+
+    /* flex-wrap: flex propert; */
+    flex-wrap: wrap;
+    /* flex-direction: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+/* align-items: property; */
+/* align-items: stretch; */
+/* default */
+/* align-items: flex-start; */
+align-items:  flex-end;
+/* align items vertically and it is at the bottom */
+align-items: center;
+/* no overlap has been made in justify-content: centre flex property but the items it sef */
+
+/* NOTE FLEX PROPERTY RECOGNIZES THE LAST PROPERTY DECLARED */
+
+}

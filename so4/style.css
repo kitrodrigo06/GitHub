@@ -1,0 +1,47 @@
+
+*{
+margin: ;
+
+
+}
+
+
+
+
+
+
+/* display properties 
+Syntax: display : property;
+
+block lets the elements move in the next line,please see span as an example. It extends the entire horizontal line */
+
+.container{
+    background-color: rgb(29, 199, 29);
+    margin: 20px;
+    margin-top: 40px;
+    border: 10px solid purple;padding: 20px;
+    
+}
+h1{
+    display: inline;
+    margin: 15px;
+    background-color: lightsalmon;
+    padding: 15px;
+    border: 5px dashed gray;
+}
+.third{
+    margin-bottom: 60px;
+}
+a{
+    background-color: lawngreen;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* padding: 10px; */
+}
+/* inline-stays in horizontal 
+*/
